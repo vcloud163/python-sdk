@@ -23,7 +23,7 @@ Python-SDK 是用于服务器端点播上传的软件开发工具包，提供简
 
 - 适用于 Python2 和 Python 3版本。
 - 通过管理控制台->账户信息获取AppKey和AppSecret；
-- 下载 python sdk，如果安装了git命令行，执行 git clone https://github.com/vcloud/python-sdk.git或者直接在github下载zip包，通过执行 python setup.py install 安装。
+- 下载 python sdk，如果安装了git命令行，执行 git clone `https://github.com/vcloud/python-sdk.git` 或者直接在github下载zip包，通过执行 python setup.py install 安装。
 - 参照 API 说明和 sdk 中提供的 demo，开发代码。
 
 **注：SDK 依赖 requests 包，需自行安装。**
