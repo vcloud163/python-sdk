@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-VCLOUD_API_HOST = 'http://106.2.44.248'  # 视频云API Host
+VCLOUD_API_HOST = 'http://vcloud.163.com'  # 视频云API Host
 
 WANPROXY_HOST = 'http://wanproxy.127.net'  # 获取上传加速节点 Host
 
