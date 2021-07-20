@@ -26,7 +26,7 @@ class Auth(object):
 		"""获取CheckSum
 		"""
 		join_string = self.AppSecret + self.Nonce + str(self.CurTime);
-		self.CheckSum = hashlib.sha1(join_string).hexdigest(); #SHA1(AppSecret + Nonce + CurTime),三个参数拼接的字符串，进行SHA1哈希计算，转化成16进制字符(String，小写)
+		self.CheckSum = hashlib.sha1(join_string.encode("utf-8")).hexdigest(); #SHA1(AppSecret + Nonce + CurTime),三个参数拼接的字符串，进行SHA1哈希计算，转化成16进制字符(String，小写)
 
 	def getVcloudHeaders(self):
 		"""获取视频云API的请求头

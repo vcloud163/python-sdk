@@ -25,7 +25,6 @@ def _get(url, body=None, headers={}):
 	try:
 		r = _session.get(url, headers=headers)
 	except Exception as e:
-		print "_get exception : {0}".format(e)
 		return None, ResponseInfo(None, e)
 	return _return_wrapper(r)
 
