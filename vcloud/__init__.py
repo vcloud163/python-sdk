@@ -7,7 +7,7 @@ For detailed document, please see:
 <https://vcloud.163.com>
 '''
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 from .transport import Transport
 
