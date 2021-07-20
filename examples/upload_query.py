@@ -14,6 +14,6 @@ if __name__ == '__main__':
 	
 	res = client.query_id(body)
 	if res != None:
-		print "client.query_id res : {0}".format(vars(res))
+		print ("client.query_id res : {0}".format(vars(res)))
 	else:
-		print "query video error!"
+		print ("query video error!")

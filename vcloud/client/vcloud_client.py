@@ -111,7 +111,7 @@ class Client(object):
 		if vResp != None:
 			if vResp.msg == None:
 				result = vResp.ret['list'][0]
-				if result.has_key('vid'):
+				if 'vid' in result:
 					return	QueryResult(result['objectName'], result['vid'], None)
 				else:
 					return	QueryResult(result['objectName'], None, result['imgId'])

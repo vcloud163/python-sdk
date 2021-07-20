@@ -96,9 +96,9 @@ class _Resume(object):
 						return ret_inner, info_inner
 
 			data = json.loads(info_inner.text_body)
-			if data.has_key("offset"):
+			if 'offset' in data:
 				offset = data["offset"]
-			if data.has_key("context"):
+			if 'context' in data:
 				context = data["context"]
 
 			if record == False:

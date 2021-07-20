@@ -14,6 +14,6 @@ if __name__ == '__main__':
 	
 	res = client.set_callback(body)
 	if res != None:
-		print "client.set_callback res : {0}".format(res)
+		print ("client.set_callback res : {0}".format(res))
 	else:
-		print "set callback error!"
+		print ("set callback error!")
